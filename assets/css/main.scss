@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.youtube-div{
+    display: flex;
+    .youtube-sidebar{
+        height: 100%;
+        width: 4%;
+        margin-left: 22px;
+        margin-top: 18px;
+        .menu-bar{
+            margin-bottom: 1.7em;
+            img{
+                height: 1.5em;
+                width: 1.8em;
+            }
+        }
+        .home, .trending, .subscription, .library {
+            margin-bottom: 3em;
+            img{
+                height: 1.5em;
+        }
+        span{
+            font-size: .7em;
+            margin-left: -5px;
+        }
+      }
+    }
+    .video-section{
+        margin-top: 23px;
+    }
+    
+}

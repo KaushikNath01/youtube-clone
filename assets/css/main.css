@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.youtube-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.youtube-div .youtube-sidebar {
+  height: 100%;
+  width: 4%;
+  margin-left: 22px;
+  margin-top: 18px;
+}
+
+.youtube-div .youtube-sidebar .menu-bar {
+  margin-bottom: 1.7em;
+}
+
+.youtube-div .youtube-sidebar .menu-bar img {
+  height: 1.5em;
+  width: 1.8em;
+}
+
+.youtube-div .youtube-sidebar .home, .youtube-div .youtube-sidebar .trending, .youtube-div .youtube-sidebar .subscription, .youtube-div .youtube-sidebar .library {
+  margin-bottom: 3em;
+}
+
+.youtube-div .youtube-sidebar .home img, .youtube-div .youtube-sidebar .trending img, .youtube-div .youtube-sidebar .subscription img, .youtube-div .youtube-sidebar .library img {
+  height: 1.5em;
+}
+
+.youtube-div .youtube-sidebar .home span, .youtube-div .youtube-sidebar .trending span, .youtube-div .youtube-sidebar .subscription span, .youtube-div .youtube-sidebar .library span {
+  font-size: .7em;
+  margin-left: -5px;
+}
+
+.youtube-div .video-section {
+  margin-top: 23px;
+}
+/*# sourceMappingURL=main.css.map */
